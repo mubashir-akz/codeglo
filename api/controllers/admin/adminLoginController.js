@@ -47,6 +47,7 @@ exports.Register = async (req, res) => {
       name,
       email,
       password: hashedPassword,
+      admin: true,
     });
 
     res.status(201).json({ newUser });
