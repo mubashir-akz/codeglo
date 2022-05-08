@@ -26,6 +26,10 @@ const LeadSchema = new Schema(
       type: Boolean,
       default: false,
     },
+    voted: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
