@@ -9,7 +9,7 @@ exports.login = async (req, res) => {
     // jwt authentication
     const user = await UsersCollection.findOne({ email, admin: true });
 
-    //   password encryptio n
+    //   password encryption
     const hashedPassword = await crypto
       .createHash("md5")
       .update(password)

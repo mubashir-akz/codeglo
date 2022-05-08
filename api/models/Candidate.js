@@ -22,5 +22,4 @@ const candidateSchema = new Schema(
   { timestamps: true }
 );
 
-// candidateSchema.plugin(mongoosePaginate);
 module.exports = mongoose.model("candidate", candidateSchema);
