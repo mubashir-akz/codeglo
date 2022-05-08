@@ -159,13 +159,20 @@ Endpoints:-
 
 
 
-Database :- used mongo atlas cloud based storage
+Database:- used mongo atlas cloud based storage
+
 For authentication used jsonwebtoken
+
 Used crypto for hashing passwords
+
 using environmental variable used dotenv module
+
 All the endpoints except login and register are authenticated
+
 Edit and Add candidates api’s data validated using middlewares
+
 Deployed in aws ec2 instance
+
 Used pm2 module for server continous running
 
 
