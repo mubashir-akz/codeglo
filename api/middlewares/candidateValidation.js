@@ -1,4 +1,4 @@
-const candidateSchema = require("../models/candidate");
+const candidateSchema = require("../models/Candidate");
 
 exports.validateCandidateAdd = (req, res, next) => {
   const { name, candidate_id } = req.body;

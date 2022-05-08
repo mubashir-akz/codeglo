@@ -1,4 +1,4 @@
-const candidateSchema = require("../../models/candidate");
+const candidateSchema = require("../../models/Candidate");
 
 exports.getCandidate = async (req, res) => {
   try {
